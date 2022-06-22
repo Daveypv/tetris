@@ -1,0 +1,104 @@
+/*
+    Tetris css
+*/
+
+html, body {
+    height: 95%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    backdrop-filter: blur(8px);
+    background-color: rgba(114,159,207, 0.5);
+}
+
+.grid {
+    width: 200px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(238,238,236, 0.4);
+    border-radius: 5px;
+}
+
+.button {
+    display: flex;
+}
+
+#start {
+    margin: 10px;
+    width: 60px;
+    height: 40px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    backdrop-filter: blur(20px);
+    background-color: rgba(136,138,133, 0.5);
+    box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 8px;
+    border: 3px rgba(255,255,255,0.4) solid;
+    border-bottom: 3px rgba(40,40,40,0.35) solid;
+    border-right: 3px rgba(40,40,40,0.35) solid
+}
+
+.grid-container {
+    display: flex;
+    margin-top: 50px;
+}
+
+.grid div {
+    width: 20px;
+    height: 20px;
+    color: white;
+    border-radius: 5px;
+}
+
+.tetromino {
+    background-color: blue;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.3) 1px 1px 1px;
+}
+
+.mini-grid {
+    margin-left: 50px;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(238,238,236, 0.5);
+    border-radius: 5px;
+}
+
+.mini-grid div {
+    height: 20px;
+    width: 20px;
+}
+
+.glass-container-blue{
+    color: white;
+    background-color: rgba(0,191,255, 0.5);
+}
+
+.glass-container-purple{
+    color: white;
+    background-color: rgba(92,53,102, 0.5);
+}
+
+.glass-container-green{
+    color: white;
+    background-color: rgba(115,210,22, 0.5);
+}
+
+.glass-container-orange{
+    color: white;
+    background-color: rgba(245,121,0, 0.5);
+}
+
+.glass-container-red{
+    color: white;
+    background-color: rgba(239,41,41, 0.5);
+}
